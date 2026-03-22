@@ -205,7 +205,7 @@ export default function Projects({ data }) {
               >
                 <div className="absolute inset-0" style={{ background:"radial-gradient(circle at 50% 50%, var(--theme-bgglow), transparent 70%)" }} />
                 {proj.img ? (
-                  <img src={proj.img} alt={proj.title} className="w-40 h-40 object-contain shadow-2xl transition-transform duration-300 hover:scale-110" style={{ animation:`heroFloat ${5+i}s ease-in-out infinite`, filter: 'drop-shadow(0 0 20px var(--theme-bgglow))' }} />
+                  <img src={proj.img} alt={proj.title} className="w-65 h-55 object-contain shadow-2xl transition-transform duration-300 hover:scale-110" style={{ animation:`heroFloat ${5+i}s ease-in-out infinite`, filter: 'drop-shadow(0 0 20px var(--theme-bgglow))' }} />
                 ) : (
                   <span style={{ animation:`heroFloat ${5+i}s ease-in-out infinite` }}>{proj.emoji}</span>
                 )}
